@@ -54,7 +54,7 @@ copy this .pri into your projects (don't forget to adjust the path)
 
 ```
 android {
-  ANDROID_EXTRA_LIBS += $$PWD/my/path/to/prebuilt/armeabi-v7a/libcrypto.so
-  ANDROID_EXTRA_LIBS += $$PWD/my/path/to/android-openssl/prebuilt/armeabi-v7a/libssl.so
+  ANDROID_EXTRA_LIBS += $$PWD/my/path/to/android-openssl-qt/prebuilt/armeabi-v7a/libcrypto.so
+  ANDROID_EXTRA_LIBS += $$PWD/my/path/to/android-openssl-qt/prebuilt/armeabi-v7a/libssl.so
 }
 ```
