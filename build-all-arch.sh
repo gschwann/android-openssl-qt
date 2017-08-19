@@ -6,6 +6,9 @@ set -e
 rm -rf prebuilt
 mkdir prebuilt
 
+# make use nox custom compiler is set
+unset CC
+
 # OPENSSL_VERSION="openssl-1.0.2j"
 
 curl -O "https://www.openssl.org/source/${OPENSSL_VERSION}.tar.gz"
